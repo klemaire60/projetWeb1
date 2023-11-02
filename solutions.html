@@ -5,9 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Projet Web 1</title>
+        <title>Mosaïque</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/icone/bob.PNG" />
+        <link rel="icon" type="image/x-icon" href="assets/icone/pingouin.JPEG" />
         <!-- Bootstrap Icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Google fonts-->
@@ -16,7 +16,7 @@
         <!-- SimpleLightbox plugin CSS-->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/soundcloud.css" rel="stylesheet" />
+        <link href="css/images.css" rel="stylesheet"/>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -37,22 +37,39 @@
                 </div>
             </div>
         </nav>
-        <!-- Présentation -->
-        <header class="masthead">
-            <div class="container px-4 px-lg-5 h-100">
-                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
-                    <div class="col-lg-8 align-self-end">
-                        <h1 class="text-white font-weight-bold">Une musique SoundCloud</h1>
+         <!-- Mosaïque-->
+         <section class="page-section" id="mosaique">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-6 text-center">
+                        <h2 class="mt-0">Un petit défi !</h2>
                         <hr class="divider" />
-                    </div>
-                    <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 mb-5"><em>Shavkat</em> par Freeze Corleone</p>
-                        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1573578004&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/elouancs" title="elouancs🧞" target="_blank" style="color: #cccccc; text-decoration: none;">elouancs🧞</a> · <a href="https://soundcloud.com/elouancs/freeze-corleone-shavkat" title="Freeze Corleone - Shavkat" target="_blank" style="color: #cccccc; text-decoration: none;">Freeze Corleone - Shavkat</a></div>
+                        <p class="text-muted mb-0">Voici des paysages saurez-vous retrouver d'où ils viennent ?</p>
+
+                        <div>
+                            <!-- Images 1 à 3 -->
+                            <img class="mosaique" src="assets/img/chutes_du_niagara.jpg" />
+                            <p>C'est les chutes du Niagara !</p>
+                            <img class="mosaique" src="assets/img/Grand_canyon.jpg"/>
+                            <p>C'est le Grand Canyon !</p>
+                            <img class="mosaique" src="assets/img/lac annecy.jpg"/>
+                            <p>C'est le lac d'Annecy !</p>
+                            <!-- Images 4 à 6 -->
+                            <img class="mosaique" src="assets/img/lac titicaca.jpeg"/>
+                            <p>C'est le lac Titicaca !</p>
+                            <img class="mosaique" src="assets/img/Mont-Saint-Michel.jpg"/>
+                            <p>C'est le mont St-Michel !</p>
+                            <img class="mosaique" src="assets/img/mont_everest.jpg"/>
+                            <p>C'est le Mont Everest !</p>
+                            <!-- Image 7 -->
+                            <img class="mosaique" src="assets/img/tour roumanie.jpg"/>
+                            <p>C'est une réplique de la Tour Eiffel présente en Roumanie !</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </header>
-        <!-- Footer-->
+        </section>
+        <!--footer-->
         <footer class="bg-light py-5">
             <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2023 - LEMAIRE Kévin</div></div>
         </footer>
